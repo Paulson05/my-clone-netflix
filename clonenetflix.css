@@ -315,8 +315,14 @@ font-size: 15px;
   .md{
       font-size:1.8rem;
   }
+  body{
+    background:rgb(19, 21, 131);
+}
  }
  @media(max-width:700px){
+     body{
+         background:yellow;
+     }
     .showcase::after{
     box-shadow: inset 120px 100px 250 black -120px -100px -250px;
        
